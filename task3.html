@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advanced Styling & JavaScript – Task 3</title>
+  <link rel="stylesheet" href="task3.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Advanced Styling & JavaScript</h1>
+  <p>Responsive design, interactive JavaScript components, and live API data (Task 3)</p>
+</header>
+
+<main>
+  <section id="carousel" class="card">
+    <h2>Image Carousel</h2>
+    <div class="carousel">
+      <div class="slides" id="slides">
+        <div class="slide" style="background-image:url('https://picsum.photos/800/400?random=1')">Creative</div>
+        <div class="slide" style="background-image:url('https://picsum.photos/800/400?random=2')">Responsive</div>
+        <div class="slide" style="background-image:url('https://picsum.photos/800/400?random=3')">Dynamic</div>
+      </div>
+      <div class="controls">
+        <button id="prev">◀</button>
+        <button id="next">▶</button>
+      </div>
+    </div>
+  </section>
+  <section id="quiz" class="card">
+    <h2>JavaScript Quiz</h2>
+    <div class="question" id="question"></div>
+    <div class="options" id="options"></div>
+    <div class="score" id="score"></div>
+  </section>
+  <section id="api" class="card">
+    <h2>Live API Data (Random Joke)</h2>
+    <div class="api-box">
+      <p>Click the button to fetch real-time data using JavaScript Fetch API.</p>
+      <button id="jokeBtn">Get Joke</button>
+    </div>
+    <div class="joke" id="joke"></div>
+  </section>
+
+</main>
+
+<footer>
+  <p>Task 3 Project – Advanced CSS, JavaScript & API Integration</p>
+</footer>
+<script src="task3.js"></script>
+
+</body>
+</html>
